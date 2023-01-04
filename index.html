@@ -4,12 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ariel Gallardo" />
+    <meta name="copyright" content="UTNBA" />
+    <link rel="stylesheet" href="/assets/styles/index.css">
     <title>Curso-UTN-FRBA</title>
 </head>
 <body>
-    <nav></nav>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <nav>
+        <picture>
+            <source srcset="/assets/images/Logo.svg" width="150vw">
+            <img src="/assets/images/Logo.png">
+        </picture>
+        <ul id="NavMenu">
+            <li><a><p>Textos</p></a></li>
+            <li><a><p>Rompecabezas</p></a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Unidad 1</h1>
+        <h3>HTML5 - CSS3</h3>
+    </header>
+    <main>
+        <h3>Contenido</h3>
+        <section>
+            <article>
+                <h4>Textos</h4>
+                <a href="/textos.html">
+                    <picture>
+                        <source srcset="/assets/images/Textos.svg">
+                        <img src="/assets/images/Textos.png">
+                    </picture>
+                </a>
+            </article>
+            <article>
+                <h4>Rompecabezas</h4>
+                <a href="/rompecabezas.html">
+                    <picture>
+                        <source srcset="/assets/images/Rompecabezas.svg">
+                        <img src="/assets/images/Rompecabezas.png">
+                    </picture>
+                </a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <span id="FooterCodigo">
+            <picture>
+                <source srcset="/assets/images/Codigo.svg" width="50vw" height="60vh">
+                <img src="/assets/images/Codigo.png">
+            </picture>
+            <h5>HTML - CSS3</h5>
+        </span>
+        <span id="FooterGithub">
+            <picture>
+                <source srcset="/assets/images/Github.svg" width="50vw">
+                <img src="/assets/images/Github.png">
+            </picture>
+            <a rel="author"><p id="Author">Ariel Gallardo</p></a>
+        </span>
+    </footer>
 </body>
 </html>

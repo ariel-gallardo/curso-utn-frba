@@ -1,0 +1,22 @@
+:root{
+    --font-color: white;
+    --nav-bg-color: rgba(0, 0, 0, 0.8);
+    --header-bg-color:rgba(45, 52, 54, 0.8);
+    --main-bg-color: rgba(61, 61, 61, 0.8);
+    --footer-bg-color: rgba(75, 75, 75, 0.8);
+
+    /*Font Color's*/
+    --font-color-before: rgba(255,255,255,0.5);
+    --font-color-hover: var(--font-color);
+
+    /*Body Height's*/
+    --height-total: 185vh;
+    --height-nav: 15vh;
+    --height-header: 60vh;
+    --height-main: 100vh;
+    --height-footer: 10vh;
+
+    /*NavMenu*/
+    --navmenu-bg-color: rgba(25, 42, 86, 0.3);
+    --navmenu-bg-color-hover: rgba(25, 42, 86, 0.6);
+}
