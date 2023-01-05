@@ -20,8 +20,9 @@ body{
                         "header"  
                         "main"  
                         "footer";
-    margin: 2vw;
-    gap: 1vh;
+    margin: 5vh;
+    gap: 5vh;
+    
     color: var(--font-color);
 }
 
@@ -71,6 +72,19 @@ body > *{
     border-radius: 0.5vw;
 }
 
+/*****************Center*******************/
+
+header, main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#Content{
+    display: flex;
+    justify-content: center;
+}
 
 /****************NavMenu*******************/
 #NavMenu{gap: 2vw;}
