@@ -1,0 +1,34 @@
+@import url('/assets/styles/style.css');
+@import url('/assets/styles/variables/index.css');
+
+#IndexContent{text-align: center;}
+#IndexContent h1{margin: -3vh;}
+
+
+#Sitios{
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+
+#Content{
+    text-align: center;
+}
+
+#Sitios article{
+    border: 0.3vw var(--article-bg-before) solid;
+    border-radius: 0.5vw;
+    padding: 2vw;
+    transition: border-color 2s;
+    transition: opacity 2s;
+    opacity: 0.5;
+}
+
+#Sitios article:hover{
+    border-color: var(--article-bg-after);
+    opacity: 1;
+}
+
+#Sitios article h4{
+    border: white solid;
+}

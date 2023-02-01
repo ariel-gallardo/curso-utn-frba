@@ -1,0 +1,14 @@
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url('/assets/fonts/PlayfairDisplay.ttf');
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url('/assets/fonts/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url('/assets/fonts/Lato-Regular.ttf');
+}

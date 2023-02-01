@@ -1,0 +1,116 @@
+@import url('./variables.css');
+
+
+/****************Font Title****************/
+@import url('./fonts.css');
+h1, h3{
+    font-family: PlayfairDisplay;
+}
+
+h4, h5, #Author, #NavMenu{
+    font-family: Lato-Regular;
+}
+
+
+/****************Custom Body***************/
+body{
+    height: var(--height-total);
+    display: grid;
+    grid-template-areas:"nav"    
+                        "header"  
+                        "main"  
+                        "footer";
+    margin: 5vh;
+    gap: 5vh;
+    
+    color: var(--font-color);
+}
+
+
+
+nav{
+    grid-area: nav;
+    background-color: var(--nav-bg-color);
+    height: var(--height-nav);
+}
+
+header{
+    grid-area: header;
+    background-color: var(--header-bg-color);
+    height: var(--height-header);
+}
+
+main{
+    grid-area: main;
+    background-color: var(--main-bg-color);
+    height: var(--height-main);
+}
+
+footer{
+    grid-area: footer;
+    background-color: var(--footer-bg-color);
+    height: var(--height-footer);
+}
+
+
+/****************General*******************/
+
+ul{list-style: none;}
+
+nav, footer,
+#NavMenu, 
+#FooterCodigo, #FooterGithub {display: flex; justify-content: space-between;}
+
+html{
+    background-image: url('/assets/images/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body > *{
+    padding: 2vh 2vw;
+    border-radius: 0.5vw;
+}
+
+/*****************Center*******************/
+
+header, main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#Content{
+    display: flex;
+    justify-content: center;
+}
+
+/****************NavMenu*******************/
+#NavMenu{gap: 2vw;}
+#NavMenu > li > a > p {
+    background-color: var(--navmenu-bg-colors);
+    padding: 0.8vw;
+    border-radius: 10%;
+    color: var(--font-color-before);
+}
+
+#NavMenu > li > a > p:hover{
+    background-color: var(--navmenu-bg-color-hover);
+    color: var(--font-color-hover);
+    transition: background-color 0.4s;
+    transition: color 0.8s;
+}
+
+/****************Footer********************/
+#FooterGithub, #FooterCodigo {
+    
+    margin-bottom: auto;
+    margin-top: auto;
+    gap: 1vw;
+    color: whitesmoke;
+}
+
+#FooterGithub picture, #FooterCodigo picture{
+    filter: drop-shadow(2px 2px white);
+}
