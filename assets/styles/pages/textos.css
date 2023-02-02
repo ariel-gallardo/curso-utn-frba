@@ -1,0 +1,58 @@
+@import url('/assets/styles/index.css');
+
+
+/*Textos*/
+
+#textos p{
+    text-align: left;
+}
+
+#textos{
+    display: grid;
+    grid-template-areas: " a b "
+                         " d c "
+                         " e f ";
+}
+
+#a{grid-area: a;}
+#b{grid-area: b;}
+#c{grid-area: c;}
+#d{grid-area: d;}
+#e{grid-area: e;}
+#f{grid-area: f;}
+
+
+/*Video*/
+video{
+    border: solid blue 0.1em;
+    box-shadow: 10px 8px 5px rgba(0,0,152,.4);
+    border-radius: 1vw;
+    z-index: 1;
+}
+
+#videoControls{
+    background-color: white;
+    margin:auto;
+    width: 32.5%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    /*margin-top: -2.06vw;*/
+    border-radius: 0.5vw;
+}
+
+#videoControls #buttons{
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5vw;
+}
+
+#videoControls p{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+#duration{
+    margin-right: 3vw !important;
+}
