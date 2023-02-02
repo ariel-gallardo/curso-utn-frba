@@ -1,1 +1,31 @@
 @import url('/assets/styles/index.css');
+
+#tablero{
+    display: grid;
+    grid-template-areas: "t1 t2 t3"
+                         "t4 t5 t6"
+                         "t7 t8 t9";
+    margin: auto;
+    border: white solid;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 600px !important;
+    height: 600px !important;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+#juego{
+    display: flex;
+}
+
+#t1{grid-area: t1;}
+#t2{grid-area: t2;}
+#t3{grid-area: t3;}
+
+#t4{grid-area: t4;}
+#t5{grid-area: t5;}
+#t6{grid-area: t6;}
+
+#t7{grid-area: t7;}
+#t8{grid-area: t8;}
+#t9{grid-area: t9;}
